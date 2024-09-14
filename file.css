@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: fit-content;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  font-weight: 600;
+  margin-right: 100px;
+}
+
+.hero {
+  background-image: url('/Images/load_tfv\(sz\)\ 1.png');
+  background-size: cover;
+  padding: 10rem 2rem;  
+  height: 464px;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-left: 100px;
+}
+
+button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 100px;
+  background-color: #FBD19A;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.box {
+  width: 450px;
+  margin-left: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 100px;
+}
+
+.h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 70px;
+  font-size: 56px;
+}
+
+.p {
+  line-height: 30px;
+  font-weight: 500;
+}
+
+
+.pricing {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.linkDlc {
+  color: black;
+}
+
+.dlc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 56px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.imgDlc {
+  width: 40%;
+  margin-top: 100px;
+}
+
+.imgDlc2 {
+  width: 25%;
+  
+}
+
+.container-post {
+  display: flex;
+  width: 739px;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+  right: 0px;
+  top: 1812px;
+}
+.left-side {
+  flex: 1;
+  background-image: url("https://via.placeholder.com/600x400"); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+}
+.right-side {
+  flex: 1;
+  padding: 30px;
+  background-color: #222;
+  color: #fff;
+  height: 624px;
+}
+.inquiry {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.inquiryP {
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.tank {
+  width: 100%;
+  z-index: -10;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.blog-post {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.blog-post img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.blog-post h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.blog-post p {
+  margin-top: 5px;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.blog-post a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.blog-post a:hover {
+  background-color: #0056b3;
+}
