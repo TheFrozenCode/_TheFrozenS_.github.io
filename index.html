@@ -5,74 +5,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="yandex-verification" content="a30591667b29ec1c" />
     <link rel="stylesheet" href="file.css">
+    <link rel="icon" href="/Images/favicon.ico" type="image/x-icon">
     <title>Finsweet</title>
 </head>
 <body>
     <header>
-        <h1 class="logo">Finsweet</h1>
-        <nav>
-            <div class="links">
-                <a href="#">Home</a>
-                <a href="#">About us</a>
-                <a href="#">Blog</a>
-            </div>
-            <button>Sign in</button>
-            <button>Log in</button>
+        <h1 class="logo">HOI4 Wiki</h1>
+        <div class="burger-menu">
+            <span></span>
+        </div>
+        <nav class="logInNav">
+            <ul class="links">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#AbtGame">About game</a>
+                </li>
+                <li>
+                    <a href="#blog">Blog</a>
+                </li>
+            </ul>
         </nav>
+        <div class="logInDiv">
+            <button class="signIn">Sign in</button>
+            <button class="signIn">Log in</button>
+        </div>
     </header>
-    <section class="hero">
+    <main class="hero">
       <div class="box">
-        <h1 class="h1">Building stellar websites for early startups</h1>
-        <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        <h2 class="main_header">Building stellar websites for early startups</h2>
+        <p class="sub_header">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
       </div>
         <div class="buttons">
-            <button>View our work</button>
+            <button class="mainButton">View our work</button>
             <a href="#" class="pricing">View Pricing →</a>
         </div>
-    </section>
-    <section>
-        <h1 class="dlc">Veiw our DLC</h1>
-        <a href="" class="linkDlc">Load more →</a>
-        <img src="/Images/Group 2400.png" alt="" class="imgDlc">
-        <img src="/Images/Group 2401.png" alt="" class="imgDlc2">
-    </section>
-    <section>
-        <img src="/Images/Group 2402.png" alt="" class="tank">
-        <div class="container">
-            <div class="right-side">
-                <h1 class="inquiry">Send inquiry</h1>
-                <p class="inquiryP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                <form class="form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Email" required>
-                    <textarea placeholder="Write your logo design ideas" required></textarea>
-                    <button type="submit">Send an inquiry</button>
-                </form>
-                <a href="#" class="link">Get in touch with us →</a>
+    </main>
+    <section class='work'>
+        <div class="agHead" id="AbtGame">
+            <h2 class="ag">About game</h2>
+            <p class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+        <div class="agDivTop">
+            <div class="agDiv">
+                <div class="agImg">
+                    <img src="/Images/34OCabhqQxyGj-GyabBF3Q.png" alt="" class="icon">
+                    <div>
+                        <h2 class="agHeader">Strategy</h2>
+                        <p class="fish">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+    
+                <div class="agImg">
+                    <img src="/Images/azmpfZweQYieumjBoDZpjQ.webp" alt="" class="icon">
+                    <div>
+                        <h2 class="agHeader">Simulation</h2>
+                        <p class="fish">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+    
+                <div class="agImg">
+                    <img src="/Images/Group 2406.png" alt="" class="icon">
+                    <div>
+                        <h2 class="agHeader">Lead your naition</h2>
+                        <p class="fish">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+    
+                <div class="agImg">
+                    <img src="/Images/F_y9PzRETfCEoNcC1xDz.png" alt="" class="icon">
+                    <div>
+                        <h2 class="agHeader">Build your own history</h2>
+                        <p class="fish">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <section>
+        <h2 class="dlc">Veiw our DLC</h2>
+        <div class="imgContainer">
+            <img src="/Images/Group 2400.png" alt="" class="imgDlc">
+            <img src="/Images/Group 2401.png" alt="" class="imgDlc">
+            <img src="/Images/Group 2403.jpg" alt="" class="imgDlc">
+        </div>
+        <a href="" class="linkDlc">Load more →</a>
+    </section>
+    <section>
+        <div class="container">
+            <img src="/Images/Group 2402.png" alt="" class="tank">
+            <form class="form">
+                <h2 class="inquiry">Send inquiry</h2>
+                <p class="inquiryP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Write your logo design ideas" required></textarea>
+                <button type="submit" class="but">Send an inquiry</button>
+                <a href="#" class="link">Get in touch with us →</a>
+            </form>
+        </div>
+    </section>
+    <section id="blog">
         <div class="container-post">
             <div class="blog-post">
-              <img src="https://picsum.photos/300/200" alt="Blog Post Image">
-              <h3>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
-              <p>See how pivoting to Webflow changed one person's sales strategy and allowed him to attract</p>
-              <a href="#">Read More</a>
+              <img src="/Images/image.png" alt="Blog Post Image">
+              <h3>Wictory day: from the first day to the last.</h3>
+              <button>Read More</button>
             </div>
             <div class="blog-post">
-              <img src="https://picsum.photos/300/200" alt="Blog Post Image">
-              <h3>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
-              <p>See how pivoting to Webflow changed one person's sales strategy and allowed him to attract</p>
-              <a href="#">Read More</a>
+              <img src="/Images/image (1).png" alt="Blog Post Image">
+              <h3>Hearts of Iron IV is out on Steam!</h3>
+              <button>Read More</button>
             </div>
             <div class="blog-post">
-              <img src="https://picsum.photos/300/200" alt="Blog Post Image">
-              <h3>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
-              <p>See how pivoting to Webflow changed one person's sales strategy and allowed him to attract</p>
-              <a href="#">Read More</a>
+              <img src="/Images/image (2).png" alt="Blog Post Image">
+              <h3>Operation Mars: Details</h3>
+              <button>Read More</button>
             </div>
           </div>
     </section>
+    <footer class="foot">
+        <div class="contacts">
+            <h3 class="email">Email me at</h3>
+            <p class="subEmail">contact@website.com</p>
+            <h3 class="number">Call us</h3>
+            <p class="subNumber">8(123)456 78-90</p>
+            <p class="copyright">Copyright</p>
+        </div>
+        <div class="linksFoot">
+            <h3 class="talk">Let's talk!</h3>
+            <p class="subTalk">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.</p>
+            <nav class="linkNav">
+                <ul class="linkNavUl">
+                    <li>
+                        <div class="liItem">
+                            <img src="/Images/youtube.svg" alt="">
+                            <p style="color: black;">YouTube</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="liItem">
+                            <img src="/Images/twitter.svg" alt="">
+                            <p style="color: black;">Twitter/X</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="liItem">
+                            <img src="/Images/instagram.svg" alt="">
+                            <p style="color: black;">Instagram</p>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
+<script src="script.js"></script>
 </html>
